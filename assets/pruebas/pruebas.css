@@ -1,0 +1,332 @@
+
+
+
+/*main nosotros*/
+.nosotros h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: darkgoldenrod;
+    padding-left: 500px;
+}
+
+.nosotros p {
+    text-align: center;
+    width: 400px;
+    height: 120px;
+    margin-top: 0px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: large;
+    font-style: normal;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.reseñaProductos h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    color: darkgoldenrod;
+    padding-left: 450px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+.reseñaProductos h3 {
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(25, 25, 112, 0.082);
+}
+
+.reseñaProductos p {
+    color: black;
+    margin-right: 700px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    text-align: justify;
+    background-color: rgba(25, 25, 112, 0.082);
+}
+
+
+/*main productos*/
+.productos h2 {
+    background-color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    color: whitesmoke;
+    padding-left: 450px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.productos h3 {
+    color: goldenrod;
+    margin-right: 700px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: justify;
+    background-color: black;
+}
+
+.productos h4 {
+    color: whitesmoke;
+    margin-right: 700px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: justify;
+    background-color: black;
+}
+
+.productos p {
+    color: whitesmoke;
+    margin-right: 700px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    text-align: justify;
+    background-color: black;
+}
+
+
+/*main contacto*/
+.formularioContacto {
+    background-image: url(../images/logo-dulcepetuña-bnyd.png);
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 200px;
+    padding-left: 500px;
+    padding-right: 100px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+html {
+    font-size: 62.5%;
+  
+}
+p{
+    font-size: 1.6em;
+}
+
+h1{
+    font-size: 2.4em;
+}
+h2{
+    font-size: 2.2em;
+}
+
+
+@media screen and (max-width:768px){
+    .menu {
+        font-size: 0.8em;
+    }
+}
+
+
+header {
+    background-color: var(--principal);
+}
+
+header .navbar {
+    min-height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header .logo {
+    flex-basis: 30%;
+}
+
+header .menu {
+    flex-basis: 40%;
+    justify-content: space-between;
+}
+
+.menu .menu__item .menu__link {
+    font-size: var(--text-md);
+    padding: 1rem;
+}
+
+.menu .menu__item:hover .subMenu {
+    display: block;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+}
+
+.subMenu .subMenu__item .subMenu__link {
+    padding: 1rem;
+    font-size: 1.4em;
+    background-color: goldenrod;
+}
+
+.menu li:hover .subMenu {
+    display: block;
+}
+
+.menu>li>a:hover {
+    color: darkgoldenrod;
+}
+header {
+    background-color: var(--principal);
+}
+
+header .navbar {
+    min-height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+header .logo {
+    flex-basis: 30%;
+}
+
+header .menu {
+    flex-basis: 40%;
+    justify-content: space-between;
+}
+
+.menu .menu__item .menu__link {
+    font-size: var(--text-md);
+    padding: 1rem;
+}
+
+.menu .menu__item:hover .subMenu {
+    display: block;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+}
+
+.subMenu .subMenu__item .subMenu__link {
+    padding: 1rem;
+    font-size: 1.4em;
+    background-color: goldenrod;
+}
+
+.menu li:hover .subMenu {
+    display: block;
+}
+
+.menu>li>a:hover {
+    color: darkgoldenrod;
+}
+
+
+
+/* Helpers */
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1080em;
+    margin: 0em auto;
+}
+.inicioNosotros {
+    display: grid;
+    grid-template-areas:
+        "imagenI1  imagenI2 nosotros1 nosotros 1"
+        " nosotros2 nosotros2 imagenD1 imagenD2";
+
+}
+
+.imagenD1 {
+    grid-area: imagenI1;
+}
+
+.imagenD2 {
+    grid-area: imagenI2;
+}
+
+.nosotros1 {
+    grid-area: nosotros1;
+}
+
+.nosotros2 {
+    grid-area: nosotros2;
+}
+
+.imagenI1 {
+    grid-area: imagenD1;
+}
+
+.imagenI2 {
+    grid-area: imagenD2;
+}
+/*main contacto*/
+h2 {
+    color: rgb(212, 149, 112);
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    transition: 3s ease-in-out;
+}
+
+h2:hover :hover {
+    color: rgb(112, 103, 98);
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2:hover {
+    color: rgb(68, 27, 5);
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    font-family: cursive;
+    transition: 02s ease-in-out;
+}
+
+
