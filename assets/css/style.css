@@ -39,9 +39,9 @@ a {
 
 /*header  barra de navegacion todas las paginas*/
 
-.menuPrincipal {
+.container-fluid {
     display: inline-block;
-    background-color: #FFFFFF;
+ 
     color: black;
     font-size: small;
     font-weight: bold;
@@ -49,12 +49,12 @@ a {
     text-decoration: none;
 }
 
-.menuPrincipal:hover {
+.container-fluid:hover {
     color: rgb(212, 149, 112);
 }
 
-nav {
-    background-color: #FFFFFF;
+navbar navbar-expand-lg navbar-light bg-light {
+    background-image: url(./assets/animaciones/circle-scatter-haikei.png);
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -63,19 +63,6 @@ nav {
 
 /*main home*/
 
-.contenedor {
-    background-image: url(../images/backinicioazul.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30em;
-    margin-bottom: 20px;
-}
-
 .textoEncima {
     width: 25em;
     height: 12.5em;
@@ -83,14 +70,12 @@ nav {
     text-align: left;
     font-size: large;
     font-style: normal;
-
 }
 
 .textoEncima p {
     margin: 5px;
     padding: 20px;
     color: whitesmoke;
-
     background-color: rgba(55, 211, 238, 0.26);
 }
 
@@ -195,11 +180,11 @@ h1 {
 /*main productos*/
 
 .nuestrosProductos {
-color: rgb(212, 149, 112);
-font-weight: bold;
-font-size: large;
-text-align: center;
-transition: 3s ease-in-out;
+    color: rgb(212, 149, 112);
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    transition: 3s ease-in-out;
 }
 
 
@@ -321,7 +306,7 @@ div .titulo {
 }
 
 .ingrsoUsuario form {
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .ingresoUsuario form label {
@@ -341,8 +326,8 @@ div .titulo {
 
 
 /*main contacto*/
-h2 { 
-     color: rgb(212, 149, 112);
+h2 {
+    color: rgb(212, 149, 112);
     font-weight: bold;
     font-size: large;
     text-align: center;

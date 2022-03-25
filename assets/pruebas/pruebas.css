@@ -329,4 +329,15 @@ h2:hover {
     transition: 02s ease-in-out;
 }
 
-
+.contenedor {
+    background-image: url(../images/backinicioazul.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30em;
+    margin-bottom: 20px;
+}
