@@ -341,3 +341,90 @@ h2:hover {
     height: 30em;
     margin-bottom: 20px;
 }
+.textoEncima {
+    width: 25em;
+    height: 12.5em;
+    padding: 60px;
+    text-align: left;
+    font-size: large;
+    font-style: normal;
+}
+
+.textoEncima p {
+    margin: 5px;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: rgba(55, 211, 238, 0.26);
+}
+
+nav {
+    flex-direction: column;
+}
+
+.menuPrincipal {
+    margin: 10px 0;
+}
+
+.contenedor {
+    background-image: url(../images/inicio720.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+.textoEncima p {
+    margin: 5px;
+    padding: 40px;
+    color: #000;
+    background-color: rgba(184, 128, 167, 0.384);
+}
+
+nav {
+    flex-direction: column;
+}
+
+.menuPrincipal {
+    margin: 10px 0;
+}
+
+.contenedor {
+    background-image: url(../images/uffa.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+.textoEncima p {
+    margin: 20px;
+    padding: 20px;
+    color: black;
+    background-color: rgba(214, 185, 206, 0.384);
+}
+
+
+/*sarasa*/
+h2:hover :hover {
+    color: rgb(112, 103, 98);
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+{
+<a href="/index.html"><img class="logoCentrado" data-aos="zoom-in" src="../images/logoDulcePetuna.png" width="50%"
+        alt="logo de la marca Dulce Petuña"></a>
+<a href="/assets/views/nosotros.html" class="menuPrincipal">DULCE PETUÑA</a>
+<a href="/assets/views/productos.html" class="menuPrincipal">PRODUCTOS</a>
+<a href="/assets/views/pedidos.html" class="menuPrincipal">PEDIDOS</a>
+<a href="/assets/views/contacto.html" class="menuPrincipal">CONTACTO</a>
+</div>
+</nav>
+}
