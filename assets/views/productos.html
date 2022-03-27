@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Productos </title>
 </head>
@@ -14,132 +16,153 @@
     <!-- inicio del header
      -->
     <header>
-        <nav id="gradiente">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">DULCE PETUÑA <br>Ricooo</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="/assets/views/nosotros.html" class="nav-link active" aria-current="page"
-                                    href="#">Dulce Petuña</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="/assets/views/productos.html" href="./assets/views/productos.html"
-                                    class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Productos
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Petuñas</a></li>
-                                    <li><a class="dropdown-item" href="#">Mini Petuñas</a></li>
-                                    <li><a class="dropdown-item" href="#">Cupcakes</a></li>
-                                    <li><a class="dropdown-item" href="#">Macarons</a></li>
-                                    <li><a class="dropdown-item" href="#">Galletuñas</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/assets/views/pedidos.html" class="nav-link" href="#">Pedidos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/assets/views/contacto.html" class="nav-link" href="#">Contacto</a>
-                            </li>
-    
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html" class="nav-link" href="#">Dulce Petuna <br> Ricooo <br></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/assets/views/nosotros.html" class="nav-link active" aria-current="page"
+                                href="#">Dulce Petuña</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="/assets/views/productos.html" href="./assets/views/productos.html"
+                                class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Petuñas</a></li>
+                                <li><a class="dropdown-item" href="#">Mini Petuñas</a></li>
+                                <li><a class="dropdown-item" href="#">Cupcakes</a></li>
+                                <li><a class="dropdown-item" href="#">Macarons</a></li>
+                                <li><a class="dropdown-item" href="#">Galletuñas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/assets/views/pedidos.html" class="nav-link" href="#">Pedidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/assets/views/contacto.html" class="nav-link" href="#">Contacto</a>
+                        </li>
+
+                    </ul>
                 </div>
-            </nav>   
+            </div>
+        </nav>
     </header>
     <main>
         <h3 class="nuestrosProductos">
             NUESTROS PRODUCTOS
         </h3>
-        <section class="reseñaProductos">
-            <div class="petunas">
-                <h3 class="titulo">Petuñas</h3>
-                <p class="textoPetunas">
-                    Nuestras Petuñas son tortas tradicionales <br>
-                    Cheese Cake de frutos Rojo:Base crocante, crema de limon y salsa de frutos rojos. <br>
-                    Cheese Cake de Maracuya:Base crocante, creama pastelera y salsa de maracuya. <br>
-                    Chocotorta:Capas de galletitas de chocolate ycrema de queso untabley dulce de leche. <br>
-                    Mousse de Chocolate: Masa de chocolate y nueces molidas, dulce de leche, crema y chocolate
-                    de cobertura. <br>
-                    Lemon Pie:Masa sable dulce con crema de limon y merengue italiano. <br>
-                </p>
+<div class="continer ">
+    <div class="row justify-contente-center">
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/petuñas.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Petunas</h5>
+                        <p class="card-text"> Nuestras Petuñas son tortas tradicionales <br>
+                            Cheese Cake de frutos Rojo:Base crocante, crema de limon y salsa de frutos rojos. <br>
+                            Cheese Cake de Maracuya:Base crocante, creama pastelera y salsa de maracuya. <br>
+                            Chocotorta:Capas de galletitas de chocolate ycrema de queso untabley dulce de leche. <br>
+                            Mousse de Chocolate: Masa de chocolate y nueces molidas, dulce de leche, crema y chocolate
+                            de cobertura. <br>
+                            Lemon Pie:Masa sable dulce con crema de limon y merengue italiano. <br></p>
+                    </div>
+                </div>
             </div>
-            <div class="imgPetunas">
-                <img src="../images/petuñas.jpg" alt="foto de las variedades detortas ">
-            </div>
+        </div>
 
-            <div class="miniPetunas">
-                <h3 class="titulo">Mini Petuñas</h3>
-                <p class="textoMiniPetunas">
-                    Las mini Petuñas son nuestras tortas tradicionales individuales <br>
-                    Cheese Cake de frutos Rojo:Base crocante, crema de limon y salsa de frutos rojos. <br>
-                    Cheese Cake de Maracuya:Base crocante, creama pastelera y salsa de maracuya. <br>
-                    Chocotorta:Capas de galletitas de chocolate ycrema de queso untabley dulce de leche. <br>
-                    Mousse de Chocolate: Masa de chocolate y nueces molidas, dulce de leche, crema y chocolate
-                    de cobertura. <br>
-                    Lemon Pie:Masa sable dulce con crema de limon y merengue italiano. <br>
-                </p>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/minipertus.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Mini Petunas</h5>
+                        <p class="card-text">Las mini Petuñas son nuestras tortas tradicionales individuales <br>
+                            Cheese Cake de frutos Rojo:Base crocante, crema de limon y salsa de frutos rojos. <br>
+                            Cheese Cake de Maracuya:Base crocante, creama pastelera y salsa de maracuya. <br>
+                            Chocotorta:Capas de galletitas de chocolate ycrema de queso untabley dulce de leche. <br>
+                            Mousse de Chocolate: Masa de chocolate y nueces molidas, dulce de leche, crema y chocolate
+                            de cobertura. <br>
+                            Lemon Pie:Masa sable dulce con crema de limon y merengue italiano. <br> </p>
+                    </div>
+                </div>
             </div>
-            <div class="imgMiniPetunas">
-                <img src="../images/minipertus.jpg" alt="foto de las variedades de minitortas">
-            </div>
-          
-            <div class="cupcake">
-                <h3 class="titulo">Cupcakes</h3><br>
-                <p class="textoCupcake">
-                    Hechos con las recetas de muchas abuelas y el mismo amor <br>
-                    Cupcake de frutilla: Masa Red Belbet, relleno de mermelada de frutillas y frutillas
-                    naturales. <br>
-                    Cupcake Oreo: Masa esponjada marmolada, relelno de crema Oreo ygalletitas oreo. <br>
-                    Cupcake Moka: Masa dechocolate, relleno de dulce de leche y crema sabor cafe. <br>
-                    Cupcake Crema del cielo: masa de vainilla humedecida con licor y relleno de crema pastelera.
-                    <br>
-                    Chispas: Masa esponjada de vainilla con lentejas de chocolate, relleno de crema de avellanas
-                    y chocolate<br>
-                </p>
-            </div>
-            <div class="imgCupcake">
-                <img src="../images/cupcakes.jpg" alt="foto de las variedades de cupcakes">
-            </div>
+        </div>
 
-            <div class="macarons">
-                <h3 class="titulo">Macarons</h3>
-                <p class="textoMacarons">
-                    Livianos y suaves macarons, <br>
-                    Galleta crujiente por fuera y blanda por dentro, rellenas con suave crema de manteca. <br>
-                    Sabores: Frutilla, Frutos Rojos, Limon y Pistacho: <br>
-                </p>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/cupcakes.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Cupcakes</h5>
+                        <p class="card-text">  Hechos con las recetas de muchas abuelas y el mismo amor <br>
+                            Cupcake de frutilla: Masa Red Belbet, relleno de mermelada de frutillas y frutillas
+                            naturales. <br>
+                            Cupcake Oreo: Masa esponjada marmolada, relelno de crema Oreo ygalletitas oreo. <br>
+                            Cupcake Moka: Masa dechocolate, relleno de dulce de leche y crema sabor cafe. <br>
+                            Cupcake Crema del cielo: masa de vainilla humedecida con licor y relleno de crema pastelera.
+                            <br>
+                            Chispas: Masa esponjada de vainilla con lentejas de chocolate, relleno de crema de avellanas
+                            y chocolate<br> </p>
+                    </div>
+                </div>
             </div>
-            <div class="imgMacarons">
-                <img src="../images/macarons.jpg"alt="foto de las variedades de macarons">
-            </div>
+        </div>
 
-            <div class="galletunas">
-                <h3 class="titulo">Galletuñas</h3>
-                <p class="textoGalletunas">
-                    Galletitas divertidas, colores brillantes simples o rellenas, <br>
-                    Sabores: Vainilla y Chocolate. <br>
-                </p>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/macarons.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Macarons</h5>
+                        <p class="card-text"> Livianos y suaves macarons, <br>
+                            Galleta crujiente por fuera y blanda por dentro, rellenas con suave crema de manteca. <br>
+                            Sabores: Frutilla, Frutos Rojos, Limon y Pistacho: <br> </p>
+                    </div>
+                </div>
             </div>
-            <div class="imgGalletunas">
-                <img src="../images/galletuñas.jpg" alt="foto de las variedades de galletitas">
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../images/galletuñas.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Galletunas</h5>
+                        <p class="card-text">  Galletitas divertidas, colores brillantes simples o rellenas, <br>
+                            Sabores: Vainilla y Chocolate. <br></p>
+                    </div>
+                </div>
             </div>
-
-        </section>
-
-        <!-- inicio del footer --> 
+        </div>
+    </div>
+</div>
+        <!-- inicio del footer -->
         <footer>
             <p>Todos los derechos reservados</p>
         </footer>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
