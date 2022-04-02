@@ -141,7 +141,7 @@ h1 {
 }
 
 h5 {
-    color:black#FFFFFF;
+    color:black;
     font-size: large;
     font-weight: bold;
 }
@@ -479,3 +479,5 @@ h2:hover {
     font-family: cursive;
     transition: 02s ease-in-out;
 }
+
+
