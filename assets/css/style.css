@@ -284,14 +284,14 @@ footer p {
 
 
 /*Responvive */
-@media (max-width: 720px) {
+@media (max-width: 900px) {
     .nosotros {
         grid-template-columns: 50% 1fr;
         grid-template-areas:
             "fotoMesada  texto1 "
             "fotoIngredientes texto1"
-            "texto2 fotoMoldes "
-            "texto2 fotoDecoracion "
+            " fotoMoldes fotoDecoracion"
+            "texto2 texto2"
             "fotoProductoTerminado fotoProductoTerminado";
     }
 
@@ -327,15 +327,35 @@ footer p {
     }
 
     .ingresoUsuarios {
-        background-image: url(../images/usuario720.jpg);
-
-        width: 100%;
+        background-image: url(../images/ingreso\ usuario.png);
     }
 
     .formularioUsuario {
         color: bisque;
     }
+
+    .contacto {
+        grid-template-columns: auto;
+        grid-template-areas:
+            "imagenContacto"
+            "textoContacto"
+            "formularioContacto";
+    }
+
 }
+@media (max-width: 720px) {
+    .nosotros {
+        grid-template-columns: 50% 1fr;
+        grid-template-areas:
+            "fotoMesada  fotoIngredientes "
+            "fotoMoldes fotoDecoracion"
+            " texto1 texto1"
+            "texto1 texto1 "
+            "texto2 texto2"
+            "fotoProductoTerminado fotoProductoTerminado";
+    }
+
+    
 
 @media (max-width: 480px) {
     .nosotros {
@@ -368,19 +388,13 @@ footer p {
     }
 
     .ingresoUsuarios {
-        background-image: url(../images/usuario480a.jpg);
+        background-image: url(../images/ingreso\ usuario.png);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
     }
 
-    .contacto {
-        grid-template-columns: auto;
-        grid-template-areas:
-            "imagenContacto"
-            "textoContacto"
-            "formularioContacto";
-    }
+    
 
 }
 
