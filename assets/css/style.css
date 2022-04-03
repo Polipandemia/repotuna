@@ -247,6 +247,7 @@ h2 {
 .imagenContacto {
     grid-area: imagenContacto;
     background-color: #FFFFFF;
+   
 }
 
 .imagenContacto img {
