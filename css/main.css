@@ -1,0 +1,110 @@
+h2 {
+  color: pink;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  transition: 3s ease-in-out; }
+
+.contacto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: "imagenContacto textoContacto" "formularioContacto formularioContacto"; }
+
+.imagenContacto {
+  grid-area: imagenContacto; }
+  .imagenContacto img {
+    width: 100%; }
+
+.textoContacto {
+  grid-area: textoContacto;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+  color: #363838;
+  padding: 45px; }
+
+.formularioContacto {
+  grid-area: formularioContacto;
+  text-align: center;
+  padding: 2em;
+  background-color: white;
+  color: pink;
+  font-size: large; }
+
+/*main Dulce Petuna*/
+h1 {
+  color: pink;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  transition: 3s ease-in-out; }
+
+.nosotros {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  grid-template-areas: "fotoMesada fotoIngredientes texto1 texto1" "fotoMoldes fotoDecoracion texto1 texto1" "texto2 texto2 fotoProductoTerminado fotoProductoTerminado"; }
+
+.fotoMesada {
+  grid-area: fotoMesada; }
+
+.fotoIngredientes {
+  grid-area: fotoIngredientes; }
+
+.fotoMoldes {
+  grid-area: fotoMoldes; }
+
+.fotoDecoracion {
+  grid-area: fotoDecoracion; }
+
+.fotoProductoTerminado {
+  grid-area: fotoProductoTerminado; }
+
+.texto1 {
+  grid-area: texto1;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center; }
+
+.texto2 {
+  grid-area: texto2;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center; }
+
+.nosotros div {
+  background-color: white;
+  padding: 1em; }
+  .nosotros div img {
+    width: 100%; }
+
+/*main productos*/
+.nuestrosProductos {
+  color: pink;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  transition: 3s ease-in-out; }
+
+h5 {
+  color: black;
+  font-size: large;
+  font-weight: bold; }
+
+p {
+  color: black;
+  font-size: large;
+  font-weight: lighter; }
+
+div p {
+  font-size: medium; }
+  div p .titulo {
+    font-weight: bold;
+    font-size: large;
+    color: pink; }
+
+.continer {
+  display: flex;
+  align-items: center;
+  justify-content: center; }

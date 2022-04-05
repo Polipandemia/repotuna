@@ -1,7 +1,6 @@
 
-/*main contacto*/
 h2 {
-    color: rgb(212, 149, 112);
+    color: pink;
     font-weight: bold;
     font-size: large;
     text-align: center;
@@ -20,7 +19,7 @@ h2 {
 
 .imagenContacto {
     grid-area: imagenContacto;
-    background-color: #FFFFFF;
+
     img {
         width: 100%;
     }
@@ -31,7 +30,6 @@ h2 {
     font-weight: bold;
     font-size: x-large;
     text-align: center;
-    background-color:#FFFFFF;
     color: #363838;
     padding: 45px;
 }
@@ -40,7 +38,7 @@ h2 {
     grid-area: formularioContacto;
     text-align: center;
     padding: 2em;
-    background-color:#FFFFFF;
-    color: rgb(212, 149, 112);
+    background-color:white;
+    color:pink;
     font-size: large;
 }

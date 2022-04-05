@@ -1,7 +1,7 @@
 /*main productos*/
 
 .nuestrosProductos {
-    color: rgb(212, 149, 112);
+    color:$color-tertiary;
     font-weight: bold;
     font-size: large;
     text-align: center;
@@ -9,14 +9,14 @@
 }
 
 h5 {
-    color:black;
+    color:$color-secondary;
     font-size: large;
     font-weight: bold;
 }
 
 
 p {
-    color: black;
+    color:$color-secondary;
     font-size: large;
     font-weight: lighter;
 }
@@ -27,7 +27,7 @@ div p {
     .titulo {
     font-weight: bold;
     font-size: large;
-    color: rgb(212, 149, 112);
+    color:$color-tertiary;
 }
 }
 
