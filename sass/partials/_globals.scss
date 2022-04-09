@@ -61,6 +61,23 @@ a {
     height: 50px;
 }
 
+/*mixins*/
+@mixin texto ($font-size, $line-height, $color){
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color;
+    padding:2px; /*pueden no ser variables*/
+}
+
+.nosotros {
+    @include texto(1em, 1.4em, black)
+}
+
+.container-flex {
+    @include texto (1.5 em, 1em, black)
+}
+ 
+
 /*map*/
 $paleta: (
     'uno': white,
