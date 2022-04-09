@@ -1,0 +1,73 @@
+/*Normalize */
+
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Variables */
+
+:root {
+    --font: open+sans;
+    --principal: #FFFFFF;
+    --secondary: black;
+    --text-lg: 2em;
+    --text-md: 1.8em;
+}
+
+/*globals*/
+
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--secondary);
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+/*extend*/
+.btn-more {
+    width: 100px;
+    height: 30px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        color: pink;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.btn-rounded {
+    @extend .btn-more;
+    width: 150px;
+    height: 50px;
+}
+
+/*map*/
+$paleta: (
+    'uno': white,
+    'dos': black,
+    'tres': pink,
+);
+
+.destacado {
+    color: map-get($map:$paleta, $key:'tres');
+}
