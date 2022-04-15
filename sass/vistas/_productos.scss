@@ -36,3 +36,13 @@ div p {
     align-items: center;
     justify-content: center;
 }
+
+.nuestrosProductos:hover {
+    color: rgb(68, 27, 5);
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+    transition: 02s ease-in-out;
+}
+
