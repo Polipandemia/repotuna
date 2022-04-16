@@ -16,6 +16,7 @@ h1 {
         "fotoMesada fotoIngredientes texto1 texto1"
         "fotoMoldes fotoDecoracion texto1 texto1"
         "texto2 texto2 fotoProductoTerminado fotoProductoTerminado";
+        @include texto(1em, 1.4em, black) 
 }
 
 .fotoMesada {
@@ -62,6 +63,7 @@ h1 {
         width: 100%;
     }
 }
+
 h1:hover {
     color: rgb(68, 27, 5);
     font-weight: bold;

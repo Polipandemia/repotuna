@@ -1,5 +1,5 @@
 .ingresoUsuarios {
-    background-image: url("../images/ingreso\ usuario.png");
+    background-image: url("../../assets/images/ingreso\ usuario.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -32,25 +32,9 @@
 .ingresoUsuario :focus {
     width: 30px;
 }
-/*hasta aca*/
 
-.usuario {
-    background-image: url("../images/ingreso\ usuario.png");
-    background-size: cover;
-    text-align: center;
-    padding-top: 20em;
-    padding-bottom: 20em;
-}
-
-
-/*creo que esto ya no lo estoy usando, pero no lo quise borrar porque no estoy segura, cuando quise mirar en el live server estaba todo roto y no pude ver si esto me servia o no*/
-.UsuarioBoo {
-    font-size: large;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 10em;
-    padding-bottom: 10em;
-    width: 25%;
-    text-align: center;
-    padding: 5px;
+.btn-rounded {
+    @extend .btn-more;
+    width: 150px;
+    height: 50px;
 }
