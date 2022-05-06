@@ -7,7 +7,7 @@
         "fotoMesada fotoIngredientes texto1 texto1"
         "fotoMoldes fotoDecoracion texto1 texto1"
         "texto2 texto2 fotoProductoTerminado fotoProductoTerminado";
-        @include texto(1em, 1.4em, black) 
+    @include texto(1em, 1.4em, black)
 }
 
 .fotoMesada {
@@ -30,7 +30,8 @@
     grid-area: fotoProductoTerminado;
 }
 
-.texto1, .texto2 {
+.texto1,
+.texto2 {
     grid-area: texto1;
     font-size: medium;
 }
@@ -39,6 +40,7 @@
     grid-area: texto2;
 
 }
+
 .nosotros div {
     background-color: white;
     padding: 1em;

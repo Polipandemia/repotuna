@@ -1,14 +1,13 @@
 /*mixins*/
-@mixin texto ($font-size, $line-height, $color){
+@mixin texto ($font-size, $line-height, $color) {
     font-size: $font-size;
     line-height: $line-height;
     color: $color;
-    padding: 2px; 
+    padding: 2px;
 }
-        
+
 /*map*/
-$paleta: (
-    'uno': white,
+$paleta: ('uno': white,
     'dos': black,
     'tres': pink,
 );

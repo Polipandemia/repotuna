@@ -23,12 +23,17 @@ html {
     margin-left: 1rem;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ;
+}
+
 ul {
     list-style-type: none;
 }
 
 a {
-   
+
     display: inline-block;
 }
 
@@ -37,10 +42,6 @@ a {
     color: map-get($map:$paleta, $key:'dos');
     font-size: small;
     padding: 5px 30px;
-}
-
-.container-fluid:hover {
-    color: map-get($map:$paleta, $key:'tres');
 }
 
 .navbar .navbar-expand-lg .navbar-light .bg-light {
@@ -54,6 +55,7 @@ body {
 }
 
 h1 {
+    font-family: 'Cinzel Decorativo', cursiva;
     color: map-get($map:$paleta, $key:'tres');
     font-size: xx-large;
     margin-top: 1 rem;
@@ -67,7 +69,6 @@ h5 {
 }
 
 form {
-    width: 450px;
     margin: auto;
     padding: 10px 20px;
     margin-top: 20px;
@@ -120,13 +121,14 @@ footer p {
 /*extend*/
 
 .btn-rounded {
+    font-weight: bold;
     width: 100px;
     height: 50px;
     padding: 1px;
     border-radius: 15px;
     color: map-get($map:$paleta, $key:'tres');
     background-color: map-get($map:$paleta, $key:'uno');
-    border-color: map-get($map:$paleta, $key:'tres') ;
+    border-color: map-get($map:$paleta, $key:'tres');
     display: flex;
     justify-content: center;
 

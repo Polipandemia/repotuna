@@ -20,7 +20,6 @@
 
     .enResponsive {
         display: none;
-        white-space: wrap;
     }
 }
 
@@ -68,15 +67,6 @@
 
     .imgGalletunas img {
         width: 100%;
-    }
-
-    .pedidos {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: auto;
-        grid-template-areas:
-            " textoPedidos imagenPedidos"
-            "formularioPedidos formularioPedidos";
     }
 
     .contacto {

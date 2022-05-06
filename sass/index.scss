@@ -17,8 +17,9 @@
     width: 100%;
     margin: 0 auto;
     border-right: 3px solid #FFFFFF;
-    font-family:Babylonica;
-    font-size: 100%;
+    font-family: 'Meddon', cursiva;
+    font-size: 1rem;
+    font-weight: bold;
     text-align: center;
     white-space: nowrap;
     transform: translateY(-50%);
@@ -26,6 +27,6 @@
 }
 
 .enResponsive {
- text-align: center;
- font-size: xx-large;
+    text-align: center;
+    font-size: xx-large;
 }
