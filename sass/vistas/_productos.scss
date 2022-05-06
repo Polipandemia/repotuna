@@ -1,48 +1,15 @@
 /*main productos*/
-
-.nuestrosProductos {
-    color:$color-tertiary;
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-    transition: 3s ease-in-out;
-}
-
-h5 {
-    color:$color-secondary;
-    font-size: large;
-    font-weight: bold;
-}
-
-
-p {
-    color:$color-secondary;
-    font-size: large;
-    font-weight: lighter;
-}
-
 div p {
-    font-size: medium;
-
-    .titulo {
-    font-weight: bold;
-    font-size: large;
-    color:$color-tertiary;
-}
+    font-size:medium;
 }
 
-.continer {
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nuestrosProductos:hover {
-    color: rgb(68, 27, 5);
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-    font-family: cursive;
-    transition: 02s ease-in-out;
-}
+
+
+
 

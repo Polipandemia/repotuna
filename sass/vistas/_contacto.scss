@@ -1,13 +1,4 @@
-
-h2 {
-    color: pink;
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-    transition: 3s ease-in-out;
-}
-
-
+/*main contacto*/
 .contacto {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -27,26 +18,18 @@ h2 {
 
 .textoContacto {
     grid-area: textoContacto;
-    font-weight: bold;
-    font-size: x-large;
-    text-align: center;
-    color: #363838;
-    padding: 45px;
+    font-size: xx-large;
+    padding: 30px;
+    margin-top: 0em;
 }
 
 .formularioContacto {
     grid-area: formularioContacto;
-    text-align: center;
-    padding: 2em;
-    background-color:white;
-    color:pink;
-    font-size: large;
 }
-h2:hover {
-    color: rgb(68, 27, 5);
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-    font-family: cursive;
-    transition: 02s ease-in-out;
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 410px;
 }
+

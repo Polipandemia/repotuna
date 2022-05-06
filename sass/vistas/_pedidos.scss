@@ -1,3 +1,33 @@
+/*main pedidos*/
+
+.pedidos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        " textoPedidos imagenPedidos"
+        "formularioPedidos imagenPedidos";
+}
+
+.imagenPedidos {
+    grid-area: imagenPedidos;
+
+    img {
+        width: 100%;
+    }
+}
+
+.textoPedidos {
+    grid-area: textoPedidos;
+    font-size: xx-large;
+    padding: 30px;
+    margin-top: 0em;
+}
+
+.formularioPedidos {
+    grid-area: formularioPedidos;
+}
+
 .ingresoUsuarios {
     background-image: url("../../assets/images/ingreso\ usuario.png");
     background-repeat: no-repeat;
@@ -7,34 +37,6 @@
 
 .formularioUsuario {
     font-size: large;
-    font-weight: bold;
-    text-align: center;
     padding-top: 10em;
     padding-bottom: 10em;
-}
-/* de aca */
-/*aqui no me doy cuenta si tengo que hacer nesty o usar &*/
-.ingresoUsuario form {
-    gap: 1rem;
-}
-
-.ingresoUsuario form label {
-    font-size: 1.2em;
-}
-
-.ingresoUsuario .form input {
-    padding: 1rem;
-    border-radius: 10px;
-    width: 30px;
-    transition: width 6s linear;
-}
-
-.ingresoUsuario :focus {
-    width: 30px;
-}
-
-.btn-rounded {
-    @extend .btn-more;
-    width: 150px;
-    height: 50px;
 }

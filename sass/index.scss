@@ -6,3 +6,26 @@
 @import "./vistas/productos";
 @import "./vistas/pedidos";
 @import "./partials/responsive";
+
+
+
+/*home _animacion vos sos genial y dulce petuña rico*/
+
+.line-1 {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    margin: 0 auto;
+    border-right: 3px solid #FFFFFF;
+    font-family:Babylonica;
+    font-size: 100%;
+    text-align: center;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    overflow-x: hidden;
+}
+
+.enResponsive {
+ text-align: center;
+ font-size: xx-large;
+}

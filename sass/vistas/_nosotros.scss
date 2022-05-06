@@ -1,13 +1,4 @@
 /*main Dulce Petuna*/
-
-h1 {
-    color: pink;
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-    transition: 3s ease-in-out;
-}
-
 .nosotros {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -21,7 +12,6 @@ h1 {
 
 .fotoMesada {
     grid-area: fotoMesada;
-
 }
 
 .fotoIngredientes {
@@ -40,21 +30,15 @@ h1 {
     grid-area: fotoProductoTerminado;
 }
 
-
-.texto1 {
+.texto1, .texto2 {
     grid-area: texto1;
     font-size: medium;
-    font-weight: bold;
-    text-align: center;
 }
 
 .texto2 {
     grid-area: texto2;
-    font-size: medium;
-    font-weight: bold;
-    text-align: center;
-}
 
+}
 .nosotros div {
     background-color: white;
     padding: 1em;
@@ -62,13 +46,4 @@ h1 {
     img {
         width: 100%;
     }
-}
-
-h1:hover {
-    color: rgb(68, 27, 5);
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-    font-family: cursive;
-    transition: 02s ease-in-out;
 }
